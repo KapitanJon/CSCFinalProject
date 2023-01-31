@@ -20,7 +20,11 @@ h1{
     color: rgb(211, 202, 202);
     font-family: monospace;
     text-align: center;
-
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    text-align: center;
 }
 p{
     color: antiquewhite;
@@ -35,4 +39,14 @@ a{
 }
 #b{
     text-align: center;
+}
+alerts{
+    display: block;
+}
+alerts .green-alert{
+    border: 1px #000;
+    background-color: rgb(55, 230, 11);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
 }
