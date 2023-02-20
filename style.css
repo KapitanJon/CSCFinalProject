@@ -14,7 +14,7 @@
     right: 10px;
 }
 body{
-    background-color: whitesmoke;
+    background-color: rgb(132, 197, 219);
 }
 h1{
     color: rgb(211, 202, 202);
@@ -22,12 +22,18 @@ h1{
     text-align: center;
 }
 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(166, 5, 5);
     font-family: monospace;
-    text-align: center;
+    position: center;
+}
+h2.signup{
+    color: #000;
+    font-family: monospace;
+    position: relative;
 }
 p{
-    color: antiquewhite;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
 }
 a{
     text-decoration: none;
@@ -49,4 +55,7 @@ alerts .green-alert{
     padding: 1rem;
     display: flex;
     align-items: center;
+}
+label{
+    color: #000;
 }
