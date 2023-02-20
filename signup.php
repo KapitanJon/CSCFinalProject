@@ -1,75 +1,41 @@
 <?php
-$showAlert = false;
-$shoeError = false;
-$exists = false;
-
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-
-    include 'checkconn.php';
-
-    $username = $_POST["userName"];
-    $useremail = $_POST["userEmail"];
-    $password = $_POST["Password"];
-    $userfirstname = $_POST["User FirstName"];
-
-    $sql = "Select * from entries where userName='$username'";
-    $sql1 = "Select * from entries where userEmail='$useremail'";
-
-
-    $result = mysqli_query($conn, $sql);
-    $result1 = mysqli_query($conn, $sql1);
-
-    $num = mysqli_num_rows($result);
-    
-    if($num == 0){
-        if($exists == false){
-            $hash = password_hash($password, PASSWORD_DEFAULT);
-
-            $sql = "INSERT INTO `entries` (`userName`, `userEmail`, `Password`, `User FirstName`) VALUES ('$username', '$useremail', '$hash','$userfirstname')";
-
-            $result = mysqli_query($conn, $sql);
-
-                if ($result){
-                    $showAlert = true;
-
-                }
-            }
-    
-        if($num > 0){
-        $exists = "Username or Email already in use";
-            }
-
-
-        }
-    }
+/* Attempt MySQL server connection. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
+$link = mysqli_connect("localhost", "root", "", "users");
+ 
+// Check connection
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+ 
+// Escape user inputs for security
+$name = mysqli_real_escape_string($link, $_REQUEST['name']);
+$email = mysqli_real_escape_string($link, $_REQUEST['email']);
+$password = mysqli_real_escape_string($link, $_REQUEST['password']);
+ 
+// Attempt insert query execution
+$sql = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
+if(mysqli_query($link, $sql)){
+    #echo "Records added successfully.";
+} else{
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+}
+ 
+// Close connection
+mysqli_close($link);
 ?>
-
-<!doctype html>
-
-<head>
+<html>
+    <head>
         <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id = "header">
-            <h1>Sign Up</h1>
+    </head>
+    <body>
+        <div id = "header">
+            <h1>Success</h1>
             <div id = "Button">
                 <a href="login.html">Login</a>
-                <a href="landing.html">Home</a>
+                <a href = "signup.html">Sign up</a>
+                <p>Click Login to continue</p>
             </div>
         </div>
-    <?php
-
-        if($showAlert){
-            echo ' <div class = "green-alert" role="alert">
-            
-            <strong>Account Created</strong>
-            
-            </div>';
-        }
-        ?>
-
-        <h2>Information</h2>
-
-
     </body>
-    </html>
+</html>
