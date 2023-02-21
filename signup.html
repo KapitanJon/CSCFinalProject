@@ -8,19 +8,23 @@
 <body>
     <div id="header">
         <h1>Signup</h1>
+        <div id = "Button">
+            <a href="login.html">Login</a>
+            <a href = "landing.html">Home</a>
+        </div>
     </div>
 <form action="signup.php" method="post">
     <p>
         <label for="Name">First Name:</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" required="">
     </p>
     <p>
         <label for="Email">Email:</label>
-        <input type="text" name="email" id="email">
+        <input type="text" name="email" id="email" required="">
     </p>
     <p>
         <label for="password">Password:</label>
-        <input type="text" name="password" id="password">
+        <input type="text" name="password" id="password" required="">
     </p>
     <input type="submit" value="Submit">
 </form>

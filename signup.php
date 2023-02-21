@@ -12,11 +12,16 @@ if($link === false){
 $name = mysqli_real_escape_string($link, $_REQUEST['name']);
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
 $password = mysqli_real_escape_string($link, $_REQUEST['password']);
- 
+if(!isset($name,$email,$password) || trim($name)=='' or trim($email)=='' or trim($password)==''){
+    echo '<script>alert("Fill all Fields")</script>';
+    header("Location: signup.html");
+    
+}
 // Attempt insert query execution
 $sql = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
 if(mysqli_query($link, $sql)){
     #echo "Records added successfully.";
+    header("Location: success.html");
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
@@ -24,18 +29,3 @@ if(mysqli_query($link, $sql)){
 // Close connection
 mysqli_close($link);
 ?>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id = "header">
-            <h1>Success</h1>
-            <div id = "Button">
-                <a href="login.html">Login</a>
-                <a href = "signup.html">Sign up</a>
-                <p>Click Login to continue</p>
-            </div>
-        </div>
-    </body>
-</html>
