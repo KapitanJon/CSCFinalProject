@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Saiyan-Sans-Prime;
+    font-style: normal;
+    font-weight: 150;
+    src: url(Saiyan-Sans.ttf) ;
+   }
 #header{
     background-color: rgb(76, 76, 216);
     font-family: Saiyan-Sans-Prime;
@@ -19,7 +25,8 @@ body{
 }
 h1{
     color: rgb(211, 202, 202);
-    font-family: monospace;
+    font-family: Saiyan-Sans-Prime;
+    font-weight: 150;
     text-align: center;
 }
 h2{
@@ -33,7 +40,7 @@ h2.signup{
     position: relative;
 }
 p{
-    font-family: monospace;
+    font-family: Saiyan-Sans-Prime;
     color: rgb(0, 0, 0);
 }
 a{

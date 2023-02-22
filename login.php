@@ -7,6 +7,7 @@ if($link === false){
 }
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
 $password = mysqli_real_escape_string($link, $_REQUEST['password']);
+#$hashed_password = password_hash($password, PASSWORD_DEFAULT);
 $sql = "SELECT * FROM users WHERE email = '".$email."' and password ='".$password."'  ";
 $result = mysqli_query($link, $sql);
 if ($row = mysqli_fetch_array($result)){
