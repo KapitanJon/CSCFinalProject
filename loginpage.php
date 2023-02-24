@@ -24,7 +24,9 @@
         <label for="password">Password:</label>
         <input type="password" name="password" id="password" required="" onfocus="this.value=''" value="Enter Password">
         </p>
+        <div class="holder">
         <input type="submit" value="Login">
+        </div>
     </body>
 </html>
 <?php
