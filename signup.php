@@ -12,6 +12,7 @@ if($link === false){
 $name = mysqli_real_escape_string($link, $_REQUEST['name']);
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
 $password = mysqli_real_escape_string($link, $_REQUEST['password']);
+$hashed_password = password_hash($password,PASSWORD_DEFAULT);
 if(!isset($name,$email,$password) || trim($name)=='' or trim($email)=='' or trim($password)==''){
     echo '<script>alert("Fill all Fields")</script>';
     header("Location: signup.html");

@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="sign_up.css">
 <meta charset="UTF-8">
 <title>Signup</title>
 </head>
 <body>
     <div id="header">
         <h1>Signup</h1>
-        <div id = "Button">
+        <div id = "mySidenav" class="sidenav">
+            <script type="text/javascript" src="JSFiles/nav.js"></script>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="loginpage.php">Login</a>
             <a href = "landing.html">Home</a>
         </div>
+        <span onclick="openNav()" class="Button">Menu</span>
     </div>
 <form action="signup.php" method="post">
     <p>
@@ -26,7 +29,9 @@
         <label for="password">Password:</label>
         <input type="text" name="password" id="password" required="">
     </p>
+    <div class="holder">
     <input type="submit" value="Submit">
+</div>
 </form>
 </body>
 </html>
