@@ -117,6 +117,17 @@ input[type="submit" i] {
     font-family: Saiyan-Sans-Prime;
   }
 
-
+  .button {
+    background-color: #074B9C;
+    color: #F0833A;
+    font-family: Saiyan-Sans-Prime;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+  }
 
 
