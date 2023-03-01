@@ -7,7 +7,6 @@
 
 body{
     background-color: #F0833A;
-    border: 9px solid black
 }
 
 h1{
@@ -17,12 +16,13 @@ h1{
     position: relative;
     right: 19%;
     margin-top: 200px;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 100px;
     -webkit-text-stroke-color: black;
 }
 
 p{
     font-family: Saiyan-Sans-Prime;
+    font-size: large;
     color: #074B9C;
     text-align: center;
     margin-top: 10px;
@@ -57,6 +57,7 @@ input[type="submit" i] {
 }
 
 .sidenav {
+    font-family: Saiyan-Sans-Prime;
     height: 330px; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -67,15 +68,16 @@ input[type="submit" i] {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    background-image: url(paper.jfif);
+    background-image: url(Sidenav\ Menu\ bg\ mk\ 1-Max-Quality.jpg);
   }
   
   /* The navigation menu links */
   .sidenav a {
+    font-family: Saiyan-Sans-Prime;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: blue;
+    color: #F0833A;
     display: block;
     transition: 0.3s;
     background-color: transparent;
@@ -86,6 +88,7 @@ input[type="submit" i] {
  /* When you mouse over the navigation links, change their color */
  .sidenav a:hover {
     color: #074B9C;
+    font-family: Saiyan-Sans-Prime;
   }
   
   /* Position and style the close button (top right corner) */
@@ -109,4 +112,11 @@ input[type="submit" i] {
     text-align: center;
     
   }
+
+  .button {
+    font-family: Saiyan-Sans-Prime;
+  }
+
+
+
 
