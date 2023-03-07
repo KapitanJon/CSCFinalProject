@@ -1,133 +1,120 @@
 @font-face {
-    font-family: Saiyan-Sans-Prime;
-    font-style: normal;
-    font-weight: 150;
-    src: url(Saiyan-Sans.ttf) ;
-   }
-
-body{
-    background-color: #F0833A;
+  font-family: Saiyan-Sans-Prime;
+  font-style: normal;
+  font-weight: 150;
+  src: url(Saiyan-Sans.ttf)
 }
-
-h1{
-    color: #074B9C;
-    font-family: Saiyan-Sans-Prime;
-    font-weight: 200;
-    position: relative;
-    right: 19%;
-    margin-top: 200px;
-    -webkit-text-stroke-width: 100px;
-    -webkit-text-stroke-color: black;
+body {
+  background-color: #f0833a
 }
-
-p{
-    font-family: Saiyan-Sans-Prime;
-    font-size: large;
-    color: #074B9C;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 900px;
-    margin-bottom: 10px;
-    position: relative;
-    top: 215px;
+h1 {
+  color: #074b9c;
+  font-family: Saiyan-Sans-Prime;
+  font-weight: 200;
+  position: relative;
+  right: 19%;
+  margin-top: 200px;
+  -webkit-text-stroke-width: 100px;
+  -webkit-text-stroke-color: black
 }
-
-input[type="submit" i] {
-    appearance: auto;
-    user-select: none;
-    white-space: pre;
-    align-items: flex-start;
-    text-align: center;
-    cursor: default;
-    box-sizing: border-box;
-    background-color: buttonface;
-    color: buttontext;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonborder;
-    border-image: initial;
-    font-family: Saiyan-Sans-Prime;
-    background-color: #074B9C;
-    color: #F0833A;
-    position: relative;
-    top: 215px;
-    left: 1230px;
-    border-radius: 50px;
+p {
+  font-family: Saiyan-Sans-Prime;
+  font-size: large;
+  color: #074b9c;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 900px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 215px
 }
-
+input[type=submit i] {
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  font-family: Saiyan-Sans-Prime;
+  font-size: 25px;
+  background-color: #074b9c;
+  color: #f0833a;
+  position: relative;
+  top: 215px;
+  left: 1395px;
+  border-radius: 50px;
+}
 .sidenav {
-    font-family: Saiyan-Sans-Prime;
-    height: 330px; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    right: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    background-image: url(Sidenav\ Menu\ bg\ mk\ 1-Max-Quality.jpg);
+  display: inline-block;
+  align-items: center;
+  height: 330px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  right: 10;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: .5s;
+  border-radius: 50px;
+  background-image: url(Images/Sidenav\ Menu\ bg\ mk\ 1-Max-Quality.jpg)
+}
+.sidenav a {
+  font-family: Saiyan-Sans-Prime;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f0833a;
+  display: block;
+  transition: .3s;
+  background-color: transparent;
+  border: none
+}
+.sidenav a:hover {
+  color: #074b9c;
+  font-family: Saiyan-Sans-Prime
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px
+}
+@media screen and (max-height:450px) {
+  .sidenav {
+    padding-top: 15px
   }
-  
-  /* The navigation menu links */
   .sidenav a {
-    font-family: Saiyan-Sans-Prime;
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #F0833A;
-    display: block;
-    transition: 0.3s;
-    background-color: transparent;
-    border: none;
+    font-size: 18px
   }
-
-
- /* When you mouse over the navigation links, change their color */
- .sidenav a:hover {
-    color: #074B9C;
-    font-family: Saiyan-Sans-Prime;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  
-  .myDiv {
-    border: 5px outset red;
-    background-color: lightblue;
-    text-align: center;
-    
-  }
-
-  .button {
-    font-family: Saiyan-Sans-Prime;
-  }
-
-  .button {
-    background-color: #074B9C;
-    color: #F0833A;
-    font-family: Saiyan-Sans-Prime;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 50px;
-  }
-
-
+}
+.myDiv {
+  border: 5px outset red;
+  background-color: #add8e6;
+  text-align: center
+}
+.button {
+  font-family: Saiyan-Sans-Prime
+}
+.button {
+  background-color: #074b9c;
+  color: #f0833a;
+  font-family: Saiyan-Sans-Prime;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px
+}
