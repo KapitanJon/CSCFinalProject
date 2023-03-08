@@ -65,8 +65,6 @@ textarea {
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 10;
-  right: 10;
   background-color: #111;
   overflow-x: hidden;
   padding-top: 60px;
@@ -103,14 +101,19 @@ textarea {
   font-family: Saiyan-Sans-Prime
 }
 .button {
-  background-color: #074b9c;
-  color: #f0833a;
+  padding: 30px;
   font-family: Saiyan-Sans-Prime;
-  border: none;
-  padding: 15px 32px;
+  display: block;
+  color: #fb0;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 50px
+  position: absolute;
+  border-style: outset;
+  background-color: #00f;
+  border-radius: 100%;
+  border-color: #f0833a;
+  padding: 30px;
+  display: block;
+  color: #fb0;
+  text-align: center;
+  position: absolute;
 }
