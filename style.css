@@ -2,15 +2,7 @@
   font-family: Saiyan-Sans-Prime;
   font-style: normal;
   font-weight: 150;
-  src: url(Saiyan-Sans.ttf)
-}
-#header {
-  background-color: #4c4cd8;
-  font-family: Saiyan-Sans-Prime;
-  height: fit-content;
-  padding: 50px 50px;
-  border-radius: 0;
-  background-image: url(Images/HTCbanner\ Version1-Max-Quality.jpg)
+  src: url(Saiyan-Sans.ttf);
 }
 #Button {
   padding: 30px;
@@ -31,6 +23,8 @@ h1 {
   color: #fb0;
   font-family: Saiyan-Sans-Prime;
   font-weight: 150;
+  font-size: 80px;
+  padding: 5px;
   text-align: center;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black
@@ -79,6 +73,7 @@ body {
   background-attachment: fixed
 }
 .sidenav {
+  font-family: Saiyan-Sans-Prime;
   height: 330px;
   width: 0;
   position: fixed;
@@ -89,7 +84,7 @@ body {
   overflow-x: hidden;
   padding-top: 60px;
   transition: .5s;
-  background-image: url(Images/paper.jfif)
+  background-image: url(Images/SidePanelVersion2.jpg)
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -111,6 +106,26 @@ body {
   font-size: 36px;
   margin-left: 50px
 }
+span {
+  padding: 30px;
+  font-family: Saiyan-Sans-Prime;
+  display: block;
+  color: #fb0;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-style: outset;
+  background-color: #00f;
+  padding: 30px;
+  display: block;
+  color: #fb0;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px
+  
+}
 #main {
   transition: margin-left .5s;
   padding: 20px
@@ -122,15 +137,6 @@ body {
   .sidenav a {
     font-size: 18px
   }
-}
-span {
-  padding: 30px;
-  display: block;
-  color: #fb0;
-  text-align: center;
-  position: absolute;
-  top: 10px;
-  right: 10px
 }
 div.holder {
   text-align: center
