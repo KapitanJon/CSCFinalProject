@@ -23,6 +23,7 @@ if(isset($_SESSION['user_name'])==""){
         <script>
     <body>
      <button id="myBtn">Test Track</button>
+     <script type="text/">
      <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>

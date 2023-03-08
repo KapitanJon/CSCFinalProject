@@ -19,7 +19,7 @@ if(isset($_SESSION['user_name'])==""){
         <p>Welcome back <?php echo $_SESSION['user_name']  ?>
         <p></p>
         <div class="selection">
-        <a href="test_tracks.php">Practice</a>
+        <a href="test.html">Practice</a>
         </div>
     </body>
 </html>
