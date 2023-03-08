@@ -7,7 +7,7 @@
 body {
   background-image: url(Images/Images_SignUp_Page_Background_Version2.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed
+  background-attachment: fixed;
 }
 p {
   font-family: Saiyan-Sans-Prime;
@@ -51,11 +51,13 @@ input[type=submit i] {
   left: 1200px;
   border-radius: 50px
 }
-input, select, textarea {
+input,
+select,
+textarea {
   font-size: 100%;
   font-family: Saiyan-Sans-Prime;
-  color: #00f;
-  }
+  color: #00f
+}
 .sidenav {
   display: inline-block;
   align-items: center;
@@ -69,8 +71,7 @@ input, select, textarea {
   overflow-x: hidden;
   padding-top: 60px;
   transition: .5s;
-  border-radius: 50px;
-  background-image: url(Images/Sidenav\ Menu\ bg\ mk\ 1-Max-Quality.jpg)
+  background-image: url(Images/SidePanelVersion2.jpg)
 }
 .sidenav a {
   font-family: Saiyan-Sans-Prime;
@@ -80,12 +81,11 @@ input, select, textarea {
   color: #f0833a;
   display: block;
   transition: .3s;
-  background-color: transparent;
-  border: none
+  color: #074b9c;
+  font-family: Saiyan-Sans-Prime;
 }
 .sidenav a:hover {
-  color: #074b9c;
-  font-family: Saiyan-Sans-Prime
+  color: #f1f1f1;
 }
 .sidenav .closebtn {
   position: absolute;
@@ -93,14 +93,6 @@ input, select, textarea {
   right: 25px;
   font-size: 36px;
   margin-left: 50px
-}
-@media screen and (max-height:450px) {
-  .sidenav {
-    padding-top: 15px
-  }
-  .sidenav a {
-    font-size: 18px
-  }
 }
 .myDiv {
   border: 5px outset red;
