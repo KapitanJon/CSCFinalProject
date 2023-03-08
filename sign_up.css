@@ -12,7 +12,7 @@ body {
 p {
   font-family: Saiyan-Sans-Prime;
   font-size: x-large;
-  color: blue;
+  color: #00f;
   text-align: center;
   margin-top: 10px;
   margin-left: 900px;
@@ -20,12 +20,12 @@ p {
   position: relative;
   top: 215px;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: yellow;
+  -webkit-text-stroke-color: yellow
 }
 input[type=text] {
   border: 2px solid red;
   border-style: outset;
-  border-radius: 15px;
+  border-radius: 15px
 }
 input[type=submit i] {
   appearance: auto;
@@ -51,6 +51,11 @@ input[type=submit i] {
   left: 1200px;
   border-radius: 50px
 }
+input, select, textarea {
+  font-size: 100%;
+  font-family: Saiyan-Sans-Prime;
+  color: #00f;
+  }
 .sidenav {
   display: inline-block;
   align-items: center;
