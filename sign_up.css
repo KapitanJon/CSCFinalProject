@@ -5,28 +5,27 @@
   src: url(Saiyan-Sans.ttf)
 }
 body {
-  background-color: #f0833a
-}
-h1 {
-  color: #074b9c;
-  font-family: Saiyan-Sans-Prime;
-  font-weight: 200;
-  position: relative;
-  right: 19%;
-  margin-top: 200px;
-  -webkit-text-stroke-width: 100px;
-  -webkit-text-stroke-color: black
+  background-image: url(Images/Images_SignUp_Page_Background_Version2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed
 }
 p {
   font-family: Saiyan-Sans-Prime;
-  font-size: large;
-  color: #074b9c;
+  font-size: x-large;
+  color: blue;
   text-align: center;
   margin-top: 10px;
   margin-left: 900px;
   margin-bottom: 10px;
   position: relative;
-  top: 215px
+  top: 215px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+}
+input[type=text] {
+  border: 2px solid red;
+  border-style: outset;
+  border-radius: 15px;
 }
 input[type=submit i] {
   appearance: auto;
@@ -49,8 +48,8 @@ input[type=submit i] {
   color: #f0833a;
   position: relative;
   top: 215px;
-  left: 1395px;
-  border-radius: 50px;
+  left: 1200px;
+  border-radius: 50px
 }
 .sidenav {
   display: inline-block;
