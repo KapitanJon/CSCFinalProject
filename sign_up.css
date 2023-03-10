@@ -69,7 +69,7 @@ textarea {
   overflow-x: hidden;
   padding-top: 60px;
   transition: .5s;
-  background-image: url(Images/SidePanelVersion2.jpg)
+  background-image: url(Images/SidePanelVersion2.jpg);
 }
 .sidenav a {
   font-family: Saiyan-Sans-Prime;
@@ -81,14 +81,15 @@ textarea {
   transition: .3s;
   color: #074b9c;
   font-family: Saiyan-Sans-Prime;
+  font-size: xx-large;
 }
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #f0833a;
 }
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 35px; /* Where exit x is located */
   font-size: 36px;
   margin-left: 50px
 }
@@ -98,10 +99,6 @@ textarea {
   text-align: center
 }
 .button {
-  font-family: Saiyan-Sans-Prime
-}
-.button {
-  padding: 30px;
   font-family: Saiyan-Sans-Prime;
   display: block;
   color: #fb0;
@@ -111,9 +108,6 @@ textarea {
   background-color: #00f;
   border-radius: 100%;
   border-color: #f0833a;
-  padding: 30px;
-  display: block;
+  padding: 35px;
   color: #fb0;
-  text-align: center;
-  position: absolute;
 }
