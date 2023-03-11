@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sign_up.css">
     </head>
     <body onload="loginform.reset();">
         <div id = "header">

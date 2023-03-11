@@ -7,6 +7,7 @@ if(isset($_SESSION['user_name'])==""){
 <html>
 <html>
     <head>
+        
         <link rel="stylesheet" href="style.css">
     </head>
     <div id = "header">
@@ -19,6 +20,14 @@ if(isset($_SESSION['user_name'])==""){
             </div>
             <span onclick="openNav()" class="Button">Menu</span>
         </div>
+        <script>
     <body>
+     <button id="myBtn">Test Track</button>
+     <script type="text/">
+     <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>This is a practice Track</p>
+        </div> 
     </body>
 </html>
