@@ -14,7 +14,9 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 50px
+  border-radius: 50px;
+  background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
+  background-position: right -20px center;
 }
 body {
   background-color: #84c5db
