@@ -123,3 +123,13 @@ textarea {
   background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
   background-position: right -20px center;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkblue;
+  color: red;
+  text-align: center;
+}
