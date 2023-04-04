@@ -9,7 +9,6 @@ if(! $con)
 die('Connection Failed'.mysqli_error());
 }
 else{
-    echo "connected";
 }
 
 ?>
