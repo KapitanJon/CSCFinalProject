@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "header">
+            <h1>ProtoCTF</h1>
+            <div id = "Button">
+                <a href="loginpage.php">Login</a>
+                <a href = "signup.html">Sign up</a>
+                <a href = "challenges.html">Challenges</a>
+            </div>
+        </div>
+
+        <h3 id = "Trackname1">Demo Track 1</h3>
+
+            <div id = "ContentRow1">
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn">Test Challenge</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                        <form id = "challenge-form">
+                            <div id = "challenge message"></div>
+                            <input name="text" type="text">
+                            <input type="submit" value="submit">
+                            <input type="button" name="cancel" value="cancel">
+                        </form>
+                        <!-- What is 2+2? -->
+
+                    
+                    </div>
+
+                </div>
+                
+                <button id = "Challengebutton2";
+                type="button"; 
+                onclick="clickEvent();">Test Challenge</button>
+
+                <button id = "Challengebutton3";
+                type="button"; 
+                onclick="clickEvent();">Test Challenge</button>
+
+                <button id = "Challengebutton4";
+                type="button"; 
+                onclick="clickEvent();">Test Challenge</button>
+
+                <button id = "Challengebutton5";
+                type="button"; 
+                onclick="clickEvent();">Test Challenge</button>
+
+                <button id = "Challengebutton6";
+                type="button"; 
+                onclick="clickEvent();">Test Challenge</button>
+
+            </div>
+        <span id = "Trackname2">Demo Track 2 </span>
+
+
+
+
+            <script src="JSFiles/Scripts.js"></script>
+            <script src="JSFiles/challenge-modal.js"></script>
+            <script>
+                function showPrompt(text, callback){
+                    let form = document.getElementById('challenge-form');
+                    let container = document.getElementById('myModal');
+                    document.getElementById('challenge message').innerHTML = text;
+                    form.text.value = " ";
+
+                    function complete(value){
+                        callback(value)
+                    }
+
+                    form.onsubmit = function(){
+                        let value = form.text.value;
+                        if (value == '4') return true;
+
+                        complete(value)
+                    }
+
+                    form.cancel.onclick = function(){
+                        complete(null);
+                    }
+
+
+
+                }
+
+                document.getElementById('myModal').onclick = function () {
+                    showPrompt("What is 2+2?:"), function (value){
+                        if (value != 4){
+                            msg = 'Incorrect'
+                            alert(msg)
+                        } else {
+                            msg = 'Correct'
+                            alert (msg)
+                        }
+                    }
+                }
+
+
+
+            </script>
+    </body>
+</html>
