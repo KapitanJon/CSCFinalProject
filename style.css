@@ -5,16 +5,17 @@
   src: url(Saiyan-Sans.ttf)
 }
 .button {
-  background-color: #074b9c;
-  color: #f0833a;
   font-family: Saiyan-Sans-Prime;
-  border: none;
-  padding: 15px 32px;
+  display: block;
+  color: #fb0;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 50px;
+  position: absolute;
+  border-style: outset;
+  background-color: #00f;
+  border-radius: 100%;
+  border-color: #f0833a;
+  padding: 35px;
+  color: #fb0;
   background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
   background-position: right -20px center;
 }
@@ -75,7 +76,6 @@ body {
   background-attachment: fixed
 }
 .sidenav {
-  font-family: Saiyan-Sans-Prime;
   display: inline-block;
   align-items: center;
   height: 330px;
@@ -83,10 +83,11 @@ body {
   position: fixed;
   z-index: 1;
   background-color: #111;
+  font-family: Saiyan-Sans-Prime;
   overflow-x: hidden;
   padding-top: 60px;
   transition: .5s;
-  background-image: url(Images/SidePanelVersion2.jpg);
+  background-image: url(Images/HTCsidePanelVersion12-High-Quality.jpg);
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -108,22 +109,6 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px
-}
-span {
-  font-family: Saiyan-Sans-Prime;
-  display: block;
-  color: #fb0;
-  text-align: center;
-  border-style: outset;
-  background-color: #00f;
-  border-radius: 100%;
-  border-color: #f0833a;
-  padding: 30px;
-  display: block;
-  color: #fb0;
-  text-align: center;
-  
-  position: absolute
 }
 #main {
   transition: margin-left .5s;
@@ -168,4 +153,27 @@ div.holder {
   color: #000;
   text-decoration: none;
   cursor: pointer
+}
+span {
+  font-family: Saiyan-Sans-Prime;
+  display: block;
+  color: #fb0;
+  text-align: center;
+  border-style: outset;
+  background-color: #00f;
+  border-radius: 100%;
+  border-color: #f0833a;
+  padding: 35px;
+  color: #fb0;
+  background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
+  background-position: right -20px center;
+  float: left;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkblue;
+  text-align: center;
 }
