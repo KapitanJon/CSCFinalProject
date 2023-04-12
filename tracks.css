@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Saiyan-Sans-Prime;
+    font-style: normal;
+    font-weight: 150;
+    src: url(Saiyan-Sans.ttf)
+  }
+  
+  body {
+    background-image: url(Images/Images_SignUp_Page_Background_Version2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  p {
+    font-family: Saiyan-Sans-Prime;
+    font-size: x-large;
+    color: #f0833a;
+    text-align: center;
+    position: relative;
+  }
+  
+  input[type=text] {
+    background-color: #00f;
+    border-style: outset;
+    border-radius: 15px
+  }
+  
+  input[type=submit i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    font-family: Saiyan-Sans-Prime;
+    font-size: 25px;
+    background-color: #074b9c;
+    color: #f0833a;
+    position: relative;
+    border-radius: 50px
+  }
+  
+  input,
+  select,
+  textarea {
+    font-size: 100%;
+    font-family: Saiyan-Sans-Prime;
+    color: #f0833a;
+  }
+  
+  .sidenav {
+    display: inline-block;
+    align-items: center;
+    height: 330px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: .5s;
+    background-image: url(Images/HTCsidePanelVersion12-High-Quality.jpg);
+  }
+  
+  .sidenav a {
+    font-family: Saiyan-Sans-Prime;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f0833a;
+    display: block;
+    transition: .3s;
+    color: #074b9c;
+    font-family: Saiyan-Sans-Prime;
+    font-size: xx-large;
+  }
+  
+  .sidenav a:hover {
+    color: #f0833a;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    /* Where exit x is located */
+    font-size: 36px;
+    margin-left: 50px
+  }
+  
+  .myDiv {
+    border: 5px outset red;
+    background-color: #add8e6;
+    text-align: center
+  }
+  
+  .button {
+    font-family: Saiyan-Sans-Prime;
+    display: block;
+    color: #fb0;
+    text-align: center;
+    float: left;
+    border-style: outset;
+    background-color: #00f;
+    border-radius: 100%;
+    border-color: #f0833a;
+    padding: 30px;
+    color: #fb0;
+    background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
+    background-position: right -20px center;
+    top: 50%;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    text-align: center;
+    text-align: center;
+  }
+  h1 {
+    color: #fb0;
+    font-family: Saiyan-Sans-Prime;
+    font-weight: 150;
+    font-size: 80px;
+    padding: 5px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black
+  }
+  a.start{
+    font-family: Saiyan-Sans-Prime;
+    display: inline-box;
+    padding: 6px 13px;
+    text-decoration: none;
+
+  }
+  .container{
+    width: 60%;
+    margin: 0  auto;
+    overflow: auto;
+  }
+  li{
+    font-family: Saiyan-Sans-Prime;
+    font-size: x-large;
+    color: #f0833a;
+    position: relative;
+    list-style-type: none;
+  }
