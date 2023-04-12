@@ -134,3 +134,13 @@ textarea {
   text-align: center;
   text-align: center;
 }
+h1 {
+  color: #fb0;
+  font-family: Saiyan-Sans-Prime;
+  font-weight: 150;
+  font-size: 80px;
+  padding: 5px;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black
+}
