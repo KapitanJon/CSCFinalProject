@@ -26,7 +26,7 @@ p {
 input[type=text] {
   background-color: #00f;
   border-style: outset;
-  border-radius: 15px
+  border-radius: 15px;
 }
 
 input[type=submit i] {
