@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="login.css">
     </head>
     <body onload="loginform.reset();">
+    <embed src="/Music/DBZdokkanBattle.mp3" loop="true" autostart="true" width="2" height="0">
         <div id = "header">
             <div id = "mySidenav" class="sidenav">
             <script type="text/javascript" src="JSFiles/nav.js"></script>
@@ -28,6 +29,7 @@
         <div class="holder">
         <input type="submit" value="Login">
         </div>
+
     </body>
 </html>
 <?php
