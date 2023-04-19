@@ -5,26 +5,26 @@
     /*
     * Get Questions
     */
-    $query = "SELECT * FROM `questions` WHERE `question_ID` = $number";
+    $query = "SELECT * FROM `pquestions` WHERE `question_ID` = $number";
 
     //Get Result
 
     $result = mysqli_query($link,$query);
     $question = mysqli_fetch_assoc($result);
 
-    $query = "SELECT * FROM `choices` WHERE `question_ID` = $number";
+    $query = "SELECT * FROM `pchoices` WHERE `question_ID` = $number";
     $choices = mysqli_query($link,$query);
 
 
 ?>
 <html>
     <head>
-        <title>Arithmetic</title>
+        <title>Basic Programming</title>
         <link rel="stylesheet" href="tracks.css"> 
     </head>
     <body>
         <header>
-            <h1>Arithmetic</h1>
+            <h1>Basic Programming</h1>
         </header>
         <main>
             <div class="container">

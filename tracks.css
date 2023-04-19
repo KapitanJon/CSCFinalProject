@@ -157,3 +157,12 @@
     position: relative;
     list-style-type: none;
   }
+  label{
+    display: inline-block;
+    width: 180px;
+  }
+  input[type='text']{
+    width: 97%;
+    padding: 4px;
+    border-radius: 5px;
+  }
