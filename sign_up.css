@@ -26,7 +26,7 @@ p {
 input[type=text] {
   background-color: #00f;
   border-style: outset;
-  border-radius: 15px
+  border-radius: 15px;
 }
 
 input[type=submit i] {
@@ -126,14 +126,14 @@ textarea {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
+  height: 2.5rem; 
   background-color: darkblue;
-  text-align: center;
-  text-align: center;
 }
+
 h1 {
   color: #fb0;
   font-family: Saiyan-Sans-Prime;
