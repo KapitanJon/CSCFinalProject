@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(Images/Images_SignUp_Page_Background_Version2.jpg);
+  background-image: url(Images/youngGoku.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -21,6 +21,8 @@ p {
   margin-bottom: 10px;
   position: relative;
   top: 215px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 input[type=text] {
