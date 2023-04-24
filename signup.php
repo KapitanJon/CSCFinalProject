@@ -19,7 +19,7 @@ if(!isset($name,$email,$password) || trim($name)=='' or trim($email)=='' or trim
     
 }
 // Attempt insert query execution
-$sql = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
+$sql = "INSERT INTO users (Name, Email, Password) VALUES ('$name', '$email', '$password')";
 if(mysqli_query($link, $sql)){
     #echo "Records added successfully.";
     header("Location: success.html");

@@ -8,10 +8,10 @@ if($link === false){
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
 $password = mysqli_real_escape_string($link, $_REQUEST['password']);
 #$hashed_password = password_hash($password, PASSWORD_DEFAULT);
-$sql = "SELECT * FROM users WHERE email = '".$email."' and password ='".$password."'  ";
+$sql = "SELECT * FROM users WHERE Email = '".$email."' and Password ='".$password."'  ";
 $result = mysqli_query($link, $sql);
 if ($row = mysqli_fetch_array($result)){
-    $_SESSION['user_name'] = $row['name'];
+    $_SESSION['user_name'] = $row['Name'];
     header("Location: dashboard.php");
 }
 else{
