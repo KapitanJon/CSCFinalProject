@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="sign_up.css">
-<meta charset="UTF-8">
-<title>Signup</title>
+    <link rel="stylesheet" href="sign_up.css">
+    <meta charset="UTF-8">
+    <title>Signup</title>
 </head>
 <body>
-        <div id = "mySidenav" class="sidenav">
-            <script type="text/javascript" src="JSFiles/nav.js"></script>
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="loginpage.php">Login Page</a>
-            <a href = "landing.html">Landing Page</a>
-            <a href = "scoreboard.html">The Scoreboard</a>
-        </div>
-        <span onclick="openNav()" class="button">Menu</span>
-<form action="signup.php" method="post">
-    <p>
-        Signup
-    </p>
-    <p>
-        <label for="Name">FIRST NAME:</label>
-        <input type="text" name="name" id="name" required="">
-    </p>
-    <p>
-        <label for="Email">EMAIL:</label>
-        <input type="text" name="email" id="email" required="">
-    </p>
-    <p>
-        <label for="password">PASSWORD:</label>
-        <input type="text" name="password" id="password" required="">
-    </p>
-    <div class="holder">
-    <input type="submit" value="SUBMIT">
+    <div id="mySidenav" class="sidenav">
+        <script type="text/javascript" src="JSFiles/nav.js"></script>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="loginpage.php">Login Page</a>
+        <a href="landing.html">Landing Page</a>
+        <a href="scoreboard.html">The Scoreboard</a>
     </div>
+    <span onclick="openNav()" class="button">Menu</span>
 
-</form>
+    <form action="signup.php" method="post">
+        <p>Signup</p>
+        <p>
+            <label for="Name">FIRST NAME:</label>
+            <input type="text" name="name" id="name" required="">
+        </p>
+        <p>
+            <label for="Email">EMAIL:</label>
+            <input type="text" name="email" id="email" required="">
+        </p>
+        <p>
+            <label for="password">PASSWORD:</label>
+            <input type="text" name="password" id="password" required="">
+        </p>
+        <div class="holder">
+            <input type="submit" value="SUBMIT">
+        </div>
+    </form>
+
+    <audio id="myAudio" src="Music/Sound3.mp3" hidden></audio>
+
+    <script>
+        var audio = document.getElementById("myAudio");
+        audio.autoplay = true;
+        audio.loop = true;
+        audio.oncanplaythrough = function() {
+            audio.play();
+        };
+    </script>
+
 </body>
 
-<div class="footer">
-    <p>CSC 490 Senior Project for Fayetteville State University</p>
-</div>
-
 </html>
-
-<audio src="Music/Sound3.mp3" controls>
-    <p>If you are reading this, it is because your browser does not support the audio element.</p>
-    </audio>
