@@ -1,4 +1,5 @@
 <?php include 'connect.php';?>
+<?php session_start(); ?>
 <?php
     $number = (int) $_GET['n'];
     echo $number;
@@ -29,7 +30,7 @@
         <main>
             <div class="container">
                 <p><?php echo $question['text'];?></p>
-                <form method="post" action="process.php">
+                <form method="post" action="programprocess.php">
                 <?php while($row = mysqli_fetch_assoc($choices)) : ?>
                     <li><input name="choice" type="radio" value="<?php echo($row['id']);?>"/><?php echo($row['text']);?></li>
                 <?php endwhile ?>
