@@ -146,9 +146,11 @@
 
   }
   .container{
-    width: 60%;
+    width: 25%;
     margin: 0  auto;
     overflow: auto;
+    text-align: center;
+    background-color: #00f;
   }
   li{
     font-family: Saiyan-Sans-Prime;
