@@ -15,4 +15,10 @@
             <a href="dashboard.php">Dashboard</a>
     </body>
 </html>
-<?php $_SESSION['score'] = 0 ?>
+<?php 
+    $score=$_SESSION['score'];
+    $name = $_SESSION['user_name'];
+    $sql="UPDATE `users` SET Points = Points + '$score' WHERE Name='$name'";
+    mysqli_query($link,$sql);
+?>
+<?php $_SESSION['score'] = 0; ?>
