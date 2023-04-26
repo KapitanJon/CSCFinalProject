@@ -13,7 +13,6 @@
                 <a href="logout.php">Logout</a>
             </div>
         </div>
-        <h2>Choose what you want to practice</h2>
         <a href="basicmath.php">Arithmetic</a>
         <a href="basicprogramming.php">Basic Programming</a>
         <a href="clitests.php">CLI Knowledge</a>
@@ -22,5 +21,6 @@
                 unset($_SESSION['message']);
             }?>
         </h2>
+        <h2>Choose what you want to practice</h2>
     </body>
 </html>
