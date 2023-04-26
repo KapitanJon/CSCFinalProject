@@ -8,7 +8,7 @@ if(isset($_SESSION['user_name'])==""){
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Dashboard.css">
     </head>
     <body>
         <div id = "header">
