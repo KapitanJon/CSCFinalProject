@@ -1,7 +1,7 @@
 <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "root", "", "users");
+$link = mysqli_connect("127.0.0.1", "root", "", "users");
  
 // Check connection
 if($link === false){
@@ -19,7 +19,7 @@ if(!isset($name,$email,$password) || trim($name)=='' or trim($email)=='' or trim
     
 }
 // Attempt insert query execution
-$sql = "INSERT INTO users (Name, Email, Password) VALUES ('$name', '$email', '$password')";
+$sql = "INSERT INTO users (Name, Email, Password,Points) VALUES ('$name', '$email', '$password'0)";
 if(mysqli_query($link, $sql)){
     #echo "Records added successfully.";
     header("Location: success.html");
