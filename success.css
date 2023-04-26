@@ -47,10 +47,20 @@ p {
 }
 a {
   text-decoration: none;
-  border: 0.2px solid #000;
-  background: #e6e4e4;
-  padding: 5px;
-  border-radius: 1px;
+  font-family: Saiyan-Sans-Prime;
+  display: block;
+  color: #fb0;
+  text-align: center;
+  float: left;
+  border-style: outset;
+  background-color: #00f;
+  border-radius: 100%;
+  border-color: #f0833a;
+  padding: 30px;
+  color: #fb0;
+  background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
+  background-position: right -20px center;
+  top: 50%;
 }
 a .track {
   text-decoration: none;
