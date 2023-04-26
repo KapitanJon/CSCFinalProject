@@ -86,13 +86,12 @@ body {
 }
 .sidenav {
   display: inline-block;
-  align-items: top;
+  align-items: center;
   height: 330px;
   width: 0;
   position: fixed;
   z-index: 1;
   background-color: #111;
-  font-family: Saiyan-Sans-Prime;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
