@@ -30,9 +30,14 @@
     -webkit-text-stroke-color: black
   }
   h2 {
-    color: #a60505;
+    color: #fb0;
     font-family: monospace;
-    position: center
+    position: center;
+    font-family: Saiyan-Sans-Prime;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    
   }
   h2.signup {
     color: #000;
