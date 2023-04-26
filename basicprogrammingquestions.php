@@ -12,6 +12,10 @@
     $result = mysqli_query($link,$query);
     $question = mysqli_fetch_assoc($result);
 
+    $query="SELECT * FROM `pquestions`";
+    $result = mysqli_query($link,$query);
+    $total=mysqli_num_rows($result);
+
     $query = "SELECT * FROM `pchoices` WHERE `question_ID` = $number";
     $choices = mysqli_query($link,$query);
 
@@ -28,7 +32,8 @@
         </header>
         <main>
             <div class="container">
-                <p><?php echo $question['text'];?></p>
+                <p>Question <?php echo $question['question_ID'];?> of <?php echo $total;?>
+                <p><?php echo $question['text']; ?> </p>
                 <form method="post" action="programprocess.php">
                 <?php while($row = mysqli_fetch_assoc($choices)) : ?>
                     <li><input name="choice" type="radio" value="<?php echo($row['id']);?>"/><?php echo($row['text']);?></li>
