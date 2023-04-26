@@ -1,8 +1,8 @@
 <?php session_start();
  include('getscore.php');
  if($points<20){
-    header("Location:test.php");
     $_SESSION['message']="Uh oh looks like you don't have enough points come back when you have 20";
+    header("Location:test.php");
  }
  ?>
 <html>

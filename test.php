@@ -15,5 +15,10 @@
         <a href="basicmath.php">Arithmetic</a>
         <a href="basicprogramming.php">Basic Programming</a>
         <a href="clitests.php">CLI Knowledge</a>
+        <p><?php if(isset($_SESSION['message'])){
+                echo $_SESSION['message'];
+                unset($_SESSION['message']);
+            }?>
+        </p>
     </body>
 </html>
