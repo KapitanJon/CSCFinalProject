@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Saiyan-Sans-Prime;
+    font-style: normal;
+    font-weight: 150;
+    src: url(Saiyan-Sans.ttf)
+  }
+  .button {
+    font-family: Saiyan-Sans-Prime;
+    display: block;
+    color: #fb0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
+    background-position: right -20px center;
+  }
+  body {
+    background-color: #84c5db
+  }
+  h1 {
+    color: #fb0;
+    font-family: Saiyan-Sans-Prime;
+    font-weight: 150;
+    font-size: 80px;
+    padding: 5px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black
+  }
+  h2 {
+    color: #f0833a;
+    font-family: Saiyan-Sans-Prime;
+    position: center;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black
+  }
+  h2.signup {
+    color: #000;
+    font-family: monospace;
+    position: relative
+  }
+  p {
+    font-family: Saiyan-Sans-Prime;
+    color: #fb0;
+    text-align: center
+  }
+  a {
+    text-decoration: none;
+    border: .2px solid #000;
+    background: #e6e4e4;
+    padding: 5px;
+    border-radius: 1px;
+  }
+  a .track{
+    text-decoration: none;
+    border: .2px solid #000;
+    background: #e6e4e4;
+    padding: 5px;
+    border-radius: 1px;
+    
+  }
+  #b {
+    text-align: center
+  }
+  alerts {
+    display: block
+  }
+  alerts .green-alert {
+    border: 1px #000;
+    background-color: #37e60b;
+    padding: 1rem;
+    display: flex;
+    align-items: center
+  }
+  label {
+    color: #000
+  }
+  body {
+    background-image: url(Images/HTCbackgroundVersion2-Max-Quality.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed
+  }
+  .sidenav {
+    display: inline-block;
+    align-items: top;
+    height: 330px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #111;
+    font-family: Saiyan-Sans-Prime;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: .5s;
+    background-image: url(Images/HTCsidePanelVersion12-High-Quality.jpg);
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #00f;
+    display: block;
+    transition: .3s;
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+  }
+  .sidenav a:hover {
+    color: #f0833a;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 20px
+  }
+  @media screen and (max-height:450px) {
+    .sidenav {
+      padding-top: 15px
+    }
+    .sidenav a {
+      font-size: 18px
+    }
+  }
+  div.holder {
+    text-align: center
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #f1f1f1
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: 700
+  }
+  .close:focus,
+  .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+  }
