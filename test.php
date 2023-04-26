@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,7 +16,5 @@
         <a href="basicmath.php">Arithmetic</a>
         <a href="basicprogramming.php">Basic Programming</a>
         <a href="clitests.php">CLI Knowledge</a>
-
-        
     </body>
 </html>
