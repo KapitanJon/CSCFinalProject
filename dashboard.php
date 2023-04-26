@@ -24,4 +24,9 @@ include('getscore.php');
         <a href="test.php">Practice</a>
         </div>
     </body>
+
+
+    <div class="footer">
+    <p>CSC 490 Senior Project for Fayetteville State University</p>
+  </div>
 </html>
