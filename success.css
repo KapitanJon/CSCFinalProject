@@ -20,11 +20,12 @@
     background-color: #84c5db
   }
   h1 {
-    color: #fb0;
+    color: #f0833a;
+    background-image: url(Images/HeaderPossibleV1-High-Quality.jpg);
     font-family: Saiyan-Sans-Prime;
     font-weight: 150;
     font-size: 80px;
-    padding: 5px;
+    padding: 25px;
     text-align: center;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black
