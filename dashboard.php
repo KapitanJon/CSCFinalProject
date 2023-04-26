@@ -18,9 +18,9 @@ include('getscore.php');
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
           >&times;</a
         >
-        <a href="loginpage.php">Login Page</a>
-        <a href="signup.html">Sign up Page</a>
         <a href="scoreboard.html">The Scoreboard</a>
+        <a href="logout.php">Logout</a>
+        <a href="test.php">Practice</a>
       </div>
       <span onclick="openNav()" class="button">Menu</span>
     </div>

@@ -9,12 +9,16 @@
   display: block;
   color: #fb0;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 50px;
+  float: left;
+  border-style: outset;
+  background-color: #00f;
+  border-radius: 100%;
+  border-color: #f0833a;
+  padding: 30px;
+  color: #fb0;
   background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
   background-position: right -20px center;
+  top: 50%;
 }
 body {
   background-color: #84c5db;
