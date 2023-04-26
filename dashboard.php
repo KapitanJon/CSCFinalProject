@@ -21,7 +21,7 @@ include('getscore.php');
         <h2>You have <?php echo $points;?> points.</h2>
         <p></p>
         <div class="selection">
-        <a href="test.html">Practice</a>
+        <a href="test.php">Practice</a>
         </div>
     </body>
 </html>
