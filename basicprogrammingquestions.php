@@ -2,7 +2,6 @@
 <?php session_start(); ?>
 <?php
     $number = (int) $_GET['n'];
-    echo $number;
     /*
     * Get Questions
     */

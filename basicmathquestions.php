@@ -1,7 +1,6 @@
 <?php include 'connect.php';?>
 <?php
     $number = (int) $_GET['n'];
-    echo $number;
     /*
     * Get Questions
     */
