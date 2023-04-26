@@ -17,12 +17,12 @@ include('getscore.php');
                 <a href="logout.php">Logout</a>
             </div>
         </div>
-        <h2>Welcome back <?php echo $_SESSION['user_name']  ?></h2>
-        <h2>You have <?php echo $points;?> points.</h2>
         <p></p>
         <div class="selection">
         <a href="test.php">Practice</a>
         </div>
+        <h2>Welcome back <?php echo $_SESSION['user_name']  ?></h2>
+        <h2>You have <?php echo $points;?> points.</h2>
     </body>
 
 
