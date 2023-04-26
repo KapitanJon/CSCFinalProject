@@ -11,15 +11,19 @@ include('getscore.php');
         <link rel="stylesheet" href="Dashboard.css">
     </head>
     <body>
-        <div id = "header">
-            <h1>User Dashboard</h1>
-            <div id = "Button">
-                <a href="logout.php">Logout</a>
-            </div>
-        </div>
-        <p></p>
-        <div class="selection">
-        <a href="test.php">Practice</a>
+    <div id="header">
+      <h1>The Hyperbolic Time Chamber</h1>
+      <div id="mySidenav" class="sidenav">
+        <script type="text/javascript" src="JSFiles/nav.js"></script>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="loginpage.php">Login Page</a>
+        <a href="signup.html">Sign up Page</a>
+        <a href="scoreboard.html">The Scoreboard</a>
+      </div>
+      <span onclick="openNav()" class="button">Menu</span>
+    </div>
         </div>
         <h2>Welcome back <?php echo $_SESSION['user_name']  ?></h2>
         <h2>You have <?php echo $points;?> points.</h2>
