@@ -9,16 +9,12 @@
   display: block;
   color: #fb0;
   text-align: center;
-  float: left;
-  border-style: outset;
-  background-color: #00f;
-  border-radius: 100%;
-  border-color: #f0833a;
-  padding: 30px;
-  color: #fb0;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
   background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
   background-position: right -20px center;
-  top: 50%;
 }
 body {
   background-color: #84c5db;
@@ -35,13 +31,9 @@ h1 {
   -webkit-text-stroke-color: black;
 }
 h2 {
-  color: #f0833a;
+  color: #a60505;
   font-family: monospace;
   position: center;
-  font-family: Saiyan-Sans-Prime;
-  text-align: center;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
 h2.signup {
   color: #000;
@@ -55,10 +47,20 @@ p {
 }
 a {
   text-decoration: none;
-  border: 0.2px solid #000;
-  background: #e6e4e4;
-  padding: 5px;
-  border-radius: 1px;
+  font-family: Saiyan-Sans-Prime;
+  display: block;
+  color: #fb0;
+  text-align: center;
+  float: left;
+  border-style: outset;
+  background-color: #00f;
+  border-radius: 100%;
+  border-color: #f0833a;
+  padding: 30px;
+  color: #fb0;
+  background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
+  background-position: right -20px center;
+  top: 50%;
 }
 a .track {
   text-decoration: none;

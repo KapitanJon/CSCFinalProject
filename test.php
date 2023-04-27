@@ -1,7 +1,9 @@
+</html>
+<?php session_start();?>
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="test.css">
     </head>
     <body>
         <div id = "header">
@@ -11,8 +13,14 @@
                 <a href="logout.php">Logout</a>
             </div>
         </div>
-        <p>Choose what you want to practice</p>
         <a href="basicmath.php">Arithmetic</a>
         <a href="basicprogramming.php">Basic Programming</a>
+        <a href="clitests.php">CLI Knowledge</a>
+        <h2><?php if(isset($_SESSION['message'])){
+                echo $_SESSION['message'];
+                unset($_SESSION['message']);
+            }?>
+        </h2>
+        <h2>Choose what you want to practice</h2>
     </body>
 </html>

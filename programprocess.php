@@ -15,6 +15,8 @@
         $sel_choice = $_POST['choice'];
         $next = $number+1;
 
+        $query="SELECT * FROM `pquestions`";
+
         $query = "SELECT * FROM `pchoices` WHERE question_ID = $number AND is_correct = 1";
         $result = mysqli_query($link,$query);
         $row = mysqli_fetch_assoc($result);

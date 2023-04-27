@@ -143,12 +143,15 @@
     display: inline-box;
     padding: 6px 13px;
     text-decoration: none;
+    margin: auto;
 
   }
   .container{
-    width: 60%;
+    width: 25%;
     margin: 0  auto;
     overflow: auto;
+    text-align: center;
+    background-color: #00f;
   }
   li{
     font-family: Saiyan-Sans-Prime;
@@ -165,4 +168,11 @@
     width: 97%;
     padding: 4px;
     border-radius: 5px;
+  }
+  a{
+    font-family: Saiyan-Sans-Prime;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #f0833a;
   }

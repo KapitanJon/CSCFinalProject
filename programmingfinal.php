@@ -1,4 +1,6 @@
 <?php session_start(); ?>
+<?php include 'connect.php'; ?>
+
 <html>
     <head>
         <title>Basic Programming</title>
@@ -8,9 +10,15 @@
         <header>
             <h1>Final Basic Programming</h1>
         </header>
-        <main>
+            <div class="container">
             <p>Final Score: <?php echo $_SESSION['score']?></p>
             <a href="dashboard.php">Dashboard</a>
-        </main>
     </body>
-<?php $_SESSION['score'] = 0 ?>
+</html>
+<?php 
+    $score=$_SESSION['score'];
+    $name = $_SESSION['user_name'];
+    $sql="UPDATE `users` SET Points = Points + '$score' WHERE Name='$name'";
+    mysqli_query($link,$sql);
+?>
+<?php $_SESSION['score'] = 0; ?>
