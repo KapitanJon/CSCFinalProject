@@ -20,8 +20,7 @@ include('getscore.php');
         >
         <a href="scoreboard.html">The Scoreboard</a>
         <a href="logout.php">Logout</a>
-        <a href="test.php">Practice</a>
-        <a href ="knowledgecenter.php">Knowledge Center</a>
+        <a href="test.php">Tracks</a>
       </div>
       <span onclick="openNav()" class="button">Menu</span>
     </div>
