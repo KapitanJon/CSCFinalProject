@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Arithmetic</title>
-        <link rel="stylesheet" href="tracks.css"> 
+        <link rel="stylesheet" href="basicmath_style.css">
     </head>
     <body>
         <header>
