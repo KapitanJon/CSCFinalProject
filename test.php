@@ -7,7 +7,6 @@
     </head>
     <body>
         <div id = "header">
-        <div id="mySidenav" class="sidenav">
             <h1>Practice    </h1>
             <div id = "Button">
             </div>
