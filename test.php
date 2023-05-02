@@ -9,8 +9,6 @@
         <div id = "header">
             <h1>Practice    </h1>
             <div id = "Button">
-                <a href="dashboard.php">Dashboard</a>
-                <a href="logout.php">Logout</a>
             </div>
         </div>
         <a href="basicmath.php">Arithmetic</a>
