@@ -81,7 +81,7 @@
   body {
     background-image: url(Images/namek.png);
     background-repeat: no-repeat;
-    background-attachment: fixed
+    background-attachment: fixed;
   }
   .sidenav {
     display: inline-block;
