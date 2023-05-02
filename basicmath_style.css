@@ -17,7 +17,9 @@
     background-position: right -20px center;
   }
   body {
-    background-color: #84c5db
+    background-image: url(Images/namek.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   h1 {
     color: #fb0;
@@ -77,11 +79,6 @@
   }
   label {
     color: #000
-  }
-  body {
-    background-image: url(Images/namek.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
   }
   .sidenav {
     display: inline-block;
