@@ -21,13 +21,14 @@ include('getscore.php');
         <a href="scoreboard.html">The Scoreboard</a>
         <a href="logout.php">Logout</a>
         <a href="test.php">Practice</a>
-        <a href ="knowledgecenter.php">Knowledge Center</a>
+        <a href="dashboard.php">Dashboard</a>
       </div>
       <span onclick="openNav()" class="button">Menu</span>
     </div>
         </div>
-        <h2>Welcome back <?php echo $_SESSION['user_name']  ?></h2>
-        <h2>You have <?php echo $points;?> points.</h2>
+        <h2>Welcome To the knowledge center.</h2>
+        <h2>Click a topic to read more about it.</h2>
+        <a>Basic Programming Vocab</a>
     </body>
 
 

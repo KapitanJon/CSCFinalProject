@@ -16,6 +16,6 @@
         </header>
         <main>
             <p>Test Basic CLI Knowledge</p>
-            <a href="basicprogrammingquestions.php?n=1" class="start">Let's Go</a>
+            <a href="cliquestions.php?n=1" class="start">Let's Go</a>
         </main>
     </body>
