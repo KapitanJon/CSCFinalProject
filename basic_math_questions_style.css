@@ -162,8 +162,18 @@ a.start {
   margin: 0 auto;
   overflow: auto;
   text-align: center;
-  background-color: #00f;
+  font-family: Saiyan-Sans-Prime;
+  display: block;
+  text-align: center;
+  float: left;
+  border-style: outset;
+  border-radius: 100%;
+  border-color: #f0833a;
+  padding: 30px;
+  color: #fb0;
   background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
+  background-position: right -20px center;
+  top: 50%;
 }
 li {
   font-family: Saiyan-Sans-Prime;
