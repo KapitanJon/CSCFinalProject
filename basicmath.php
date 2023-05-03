@@ -6,7 +6,7 @@
     <body>
         <header>
             <h1>Arithmetic</h1>
-            <h1>Test Basic Math Skills</h1>
+            <h2>Test Basic Math Skills</h2>
         </header>
         <main>
             <a href="basicmathquestions.php?n=1" class="start">Let's Go</a>
