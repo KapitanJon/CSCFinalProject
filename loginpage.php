@@ -18,7 +18,6 @@
             <span onclick="openNav()" class="button">Menu</span>
         </div>
         <main>
-            <div class="container">
                 <form id="loginform" action="login.php" method="post" >
                     <p>Login</p>
                     <p>
@@ -32,7 +31,6 @@
                     <div class="holder">
                     <input type="submit" value="Login">
                     </div>
-            </div>
         </main>
     </body>
 </html>
