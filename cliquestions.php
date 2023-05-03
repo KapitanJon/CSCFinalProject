@@ -24,7 +24,7 @@
 <html>
     <head>
         <title>Basic Programming</title>
-        <link rel="stylesheet" href="tracks.css"> 
+        <link rel="stylesheet" href="cliquestions_style.css"> 
     </head>
     <body>
         <header>
