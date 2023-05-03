@@ -2,7 +2,7 @@
   font-family: Saiyan-Sans-Prime;
   font-style: normal;
   font-weight: 150;
-  src: url(Saiyan-Sans.ttf)
+  src: url(Saiyan-Sans.ttf);
 }
 .button {
   font-family: Saiyan-Sans-Prime;
@@ -17,7 +17,7 @@
   background-position: right -20px center;
 }
 body {
-  background-color: #84c5db
+  background-color: #84c5db;
 }
 h1 {
   color: #fb0;
@@ -27,7 +27,7 @@ h1 {
   padding: 5px;
   text-align: center;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black
+  -webkit-text-stroke-color: black;
 }
 h2 {
   color: #f0833a;
@@ -35,53 +35,52 @@ h2 {
   position: center;
   text-align: center;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black
+  -webkit-text-stroke-color: black;
 }
 h2.signup {
   color: #000;
   font-family: monospace;
-  position: relative
+  position: relative;
 }
 p {
   font-family: Saiyan-Sans-Prime;
   color: #fb0;
-  text-align: center
+  text-align: center;
 }
 a {
   text-decoration: none;
-  border: .2px solid #000;
+  border: 0.2px solid #000;
   background: #e6e4e4;
   padding: 5px;
   border-radius: 1px;
 }
-a .track{
+a .track {
   text-decoration: none;
-  border: .2px solid #000;
+  border: 0.2px solid #000;
   background: #e6e4e4;
   padding: 5px;
   border-radius: 1px;
-  
 }
 #b {
-  text-align: center
+  text-align: center;
 }
 alerts {
-  display: block
+  display: block;
 }
 alerts .green-alert {
   border: 1px #000;
   background-color: #37e60b;
   padding: 1rem;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 label {
-  color: #000
+  color: #000;
 }
 body {
   background-image: url(Images/HTCbackgroundVersion2-Max-Quality.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed
+  background-attachment: fixed;
 }
 .sidenav {
   display: inline-block;
@@ -94,7 +93,7 @@ body {
   font-family: Saiyan-Sans-Prime;
   overflow-x: hidden;
   padding-top: 60px;
-  transition: .5s;
+  transition: 0.5s;
   background-image: url(Images/HTCsidePanelVersion12-High-Quality.jpg);
 }
 .sidenav a {
@@ -103,7 +102,7 @@ body {
   font-size: 25px;
   color: #00f;
   display: block;
-  transition: .3s;
+  transition: 0.3s;
   background-color: transparent;
   border: none;
   font-size: xx-large;
@@ -116,22 +115,22 @@ body {
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px
+  margin-left: 50px;
 }
 #main {
-  transition: margin-left .5s;
-  padding: 20px
+  transition: margin-left 0.5s;
+  padding: 20px;
 }
-@media screen and (max-height:450px) {
+@media screen and (max-height: 450px) {
   .sidenav {
-    padding-top: 15px
+    padding-top: 15px;
   }
   .sidenav a {
-    font-size: 18px
+    font-size: 18px;
   }
 }
 div.holder {
-  text-align: center
+  text-align: center;
 }
 .modal {
   display: none;
@@ -141,24 +140,24 @@ div.holder {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 .modal-content {
   background-color: #fefefe;
   margin: 15%;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%
+  width: 80%;
 }
 .close {
   color: #aaa;
   float: right;
   font-size: 28px;
-  font-weight: 700
+  font-weight: 700;
 }
 .close:focus,
 .close:hover {
   color: #000;
   text-decoration: none;
-  cursor: pointer
+  cursor: pointer;
 }
