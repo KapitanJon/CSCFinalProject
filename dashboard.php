@@ -8,6 +8,7 @@ include('getscore.php');
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Dashboard</title>
         <link rel="stylesheet" href="Dashboard.css">
     </head>
     <body>

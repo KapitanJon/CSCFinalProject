@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Tracks</title>
         <link rel="stylesheet" href="test.css">
     </head>
     <body>

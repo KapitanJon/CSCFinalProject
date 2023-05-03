@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Login Page</title>
         <link rel="stylesheet" href="login.css">
     </head>
     <body onload="loginform.reset();">
