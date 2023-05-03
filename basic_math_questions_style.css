@@ -165,14 +165,14 @@ a.start {
   font-family: Saiyan-Sans-Prime;
   display: block;
   text-align: center;
-  float: left;
   border-style: outset;
   border-radius: 100%;
   border-color: #f0833a;
   padding: 30px;
   color: #fb0;
-  background-image: url(Images/HTCnavigationversion2-Max-Quality.jpg);
-  background-position: right -20px center;
+  background-image: url(Images/HeaderPossibleV1-High-Quality.jpg);
+  background-position: right -50px center;
+  background-size: 190px;
   top: 50%;
 }
 li {
