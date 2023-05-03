@@ -16,6 +16,7 @@
         <a href="basicmath.php">Arithmetic</a>
         <a href="basicprogramming.php">Basic Programming</a>
         <a href="clitests.php">CLI Knowledge</a>
+        <a href="sectest.php">Cyber Security</a>
         <a href="dashboard.php">Dashboard</a>
         <a href="logout.php">Logout</a>
         <h2><?php if(isset($_SESSION['message'])){
