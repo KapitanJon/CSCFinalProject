@@ -8,6 +8,7 @@
     <body>
         <div id = "header">
             <h1>Practice    </h1>
+            <h2>Choose what you want to practice</h2>
             <div id = "Button">
             </div>
         </div>
@@ -21,6 +22,5 @@
                 unset($_SESSION['message']);
             }?>
         </h2>
-        <h2>Choose what you want to practice</h2>
     </body>
 </html>
