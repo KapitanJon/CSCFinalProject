@@ -23,4 +23,7 @@
             }?>
         </h2>
     </body>
+    <div class="footer">
+    <p>CSC 490 Senior Project for Fayetteville State University</p>
+  </div>
 </html>
