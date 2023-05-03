@@ -16,23 +16,20 @@
             </div>
             <span onclick="openNav()" class="button">Menu</span>
         </div>
-        <main>
-            <div class="container">
-                <form id="loginform" action="login.php" method="post" >
-                    <p>Login</p>
-                    <p>
-                    <label for="Email">Email:</label>
-                    <input type="text" name="email" id="email" required="" onfocus="this.value=''" >
-                    </p>
-                    <p>
-                    <label for="password">Password:</label>
-                    <input type="password" name="password" id="password" required="" onfocus="this.value=''">
-                    </p>
-                    <div class="holder">
-                    <input type="submit" value="Login">
-                    </div>
-            </div>
-        </main>
+    <form id="loginform" action="login.php" method="post" >
+        <p>Login</p>
+        <p>
+        <label for="Email">Email:</label>
+        <input type="text" name="email" id="email" required="" onfocus="this.value=''" >
+        </p>
+        <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required="" onfocus="this.value=''">
+        </p>
+        <div class="holder">
+        <input type="submit" value="Login">
+        </div>
+
     </body>
 </html>
 <?php
