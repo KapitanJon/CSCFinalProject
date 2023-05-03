@@ -10,6 +10,7 @@
         </header>
         <main>
             <a href="basicmathquestions.php?n=1" class="start">Let's Go</a>
+            <a href="test.php?n=1" class="start">Return to Tests</a>
         </main>
     </body>
 
